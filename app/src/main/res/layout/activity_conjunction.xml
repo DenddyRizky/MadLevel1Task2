@@ -7,12 +7,88 @@
     tools:context=".ConjunctionActivity">
 
     <TextView
+        android:id="@+id/tvTableB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="68dp"
+        android:text="@string/table_b_header"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tvTableAnswer"
+        app:layout_constraintStart_toEndOf="@+id/tvTableA"
+        app:layout_constraintTop_toBottomOf="@+id/tvTtitle" />
+
+    <TextView
+        android:id="@+id/tvTableAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/table_answer_header"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvTableB"
+        app:layout_constraintTop_toTopOf="@+id/tvTableB" />
+
+    <TextView
+        android:id="@+id/tvTtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/title"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvTableB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/btSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTableA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/table_a_header"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tvTableB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvTableB" />
+
+    <TextView
+        android:id="@+id/tvTableA1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/value_true"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTableB1"
+        app:layout_constraintEnd_toStartOf="@+id/tvTableB1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTableB1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/value_false"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/etAnswer1"
+        app:layout_constraintStart_toEndOf="@+id/tvTableA1"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <EditText
+        android:id="@+id/etAnswer1"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTableB1"
+        app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
