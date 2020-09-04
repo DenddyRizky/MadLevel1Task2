@@ -8,4 +8,5 @@
     <string name="value_true">T</string>
     <string name="value_false">F</string>
     <string name="text_hint">T or F</string>
+    <string name="correct">Correct answers: %d</string>
 </resources>
