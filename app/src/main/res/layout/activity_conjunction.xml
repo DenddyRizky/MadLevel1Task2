@@ -34,7 +34,9 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/text_hint"
-        android:inputType="textPersonName"
+        android:digits = "TF"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/tvTableB4"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -57,7 +59,9 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/text_hint"
-        android:inputType="textPersonName"
+        android:digits = "TF"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/tvTableB3"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -100,7 +104,9 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/text_hint"
-        android:inputType="textPersonName"
+        android:digits = "TF"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/tvTableB2"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -188,7 +194,9 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/text_hint"
-        android:inputType="textPersonName"
+        android:digits = "TF"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/tvTableB1"
         app:layout_constraintEnd_toEndOf="parent" />
