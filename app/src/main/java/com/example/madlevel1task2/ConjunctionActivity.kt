@@ -13,4 +13,6 @@ class ConjunctionActivity : AppCompatActivity() {
         binding = ActivityConjunctionBinding.inflate(layoutInflater)
         setContentView(binding.root)
     }
+
+
 }

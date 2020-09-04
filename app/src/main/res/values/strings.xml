@@ -7,4 +7,5 @@
     <string name="table_answer_header">A^B</string>
     <string name="value_true">T</string>
     <string name="value_false">F</string>
+    <string name="text_hint">T or F</string>
 </resources>
